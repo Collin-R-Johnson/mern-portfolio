@@ -4,7 +4,8 @@
   "description": "A personal portfolio and resume website using MERN stack. DB will be used for content management.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node serer.js",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/Collin-R-Johnson/mern-portfolio/issues"
   },
-  "homepage": "https://github.com/Collin-R-Johnson/mern-portfolio#readme"
+  "homepage": "https://github.com/Collin-R-Johnson/mern-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.18",
+    "npm": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
