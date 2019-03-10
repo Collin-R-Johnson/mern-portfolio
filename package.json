@@ -1,0 +1,19 @@
+{
+  "name": "mern_portfolio",
+  "version": "1.0.0",
+  "description": "A personal portfolio and resume website using MERN stack. DB will be used for content management.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collin-R-Johnson/mern-portfolio.git"
+  },
+  "author": "Collin Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Collin-R-Johnson/mern-portfolio/issues"
+  },
+  "homepage": "https://github.com/Collin-R-Johnson/mern-portfolio#readme"
+}
